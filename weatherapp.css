@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+  background-image:url('images.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border:2px solid white;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 5px #3498db, 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+  transition: all 0.3s ease-in-out;
+margin-top:30px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #3498db;
+  transform: scale(1.1);
+}
+
+button:active {
+  box-shadow: 0 0 15px #3498db, 0 0 25px #3498db, 0 0 35px #3498db, 0 0 50px #3498db;
+  transform: scale(1.05);
+}
+
+#weather-info {
+  margin-top: 20px;
+}
+
+#error-message {
+  color: red;
+  margin-top: 20px;
+}
+
+/*My code for increase some features
+*/

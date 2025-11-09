@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <style>
+    
+    @import url('weatherapp.css');
+  </style>
+  <script src="weatherapp.js"></script>
+  
+</head>
+<body>
+  <div class="weather-container">
+    <h1 style="font-family:'Times New Roman', Times, serif;">Weather App</h1>
+    <div class="input-container">
+      <input type="text"  id="city" placeholder="Enter City" />
+      <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div id="weather-info">
+      <h2 id="city-name"></h2>
+      <p style="color:blue" id="temperature"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+      <p id="wind-speed"></p>
+      <br><br>
+      <details>
+          <summary title="click ">Know More about Developer</summary>
+          <p><i>This App is made by Arun kumar and Harsh Panday</i></p>
+          
+
+
+      </details>
+    </div>
+    <div id="error-message"></div>
+  </div>
+
+  <script src="script.js"></script><br><br>
+
+</body>
+</html>
